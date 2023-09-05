@@ -1,0 +1,82 @@
+
+	['chain_1'] = { 
+		label = 'Chain #1', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_chain_1' 
+		},
+	},
+	['chain_2'] = { 
+		label = 'Chain #2', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_chain_2' 
+		},
+	}, 
+	['chain_3'] = { 
+		label = 'Chain #3', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_chain_3' 
+		},
+	}, 
+	['chain_4'] = { 
+		label = 'Chain #4', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_chain_4' 
+		},
+	},	
+	['chain_5'] = { 
+		label = 'Chain #5', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_chain_5' 
+		},
+	},		
+	
+	['watch_1'] = { 
+		label = 'watch #1', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_watch_1' 
+		},
+	},
+	['watch_2'] = { 
+		label = 'watch #2', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_watch_2' 
+		},
+	}, 
+	['watch_3'] = { 
+		label = 'watch #3', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_watch_3' 
+		},
+	}, 
+	['watch_4'] = { 
+		label = 'watch #4', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_watch_4' 
+		},
+	},	
+	['watch_5'] = { 
+		label = 'watch #5', 
+		weight = 5,  
+		client = {  
+			usetime = 0,
+			export = 'extra_accessories.use_watch_5' 
+		},
+	},	
