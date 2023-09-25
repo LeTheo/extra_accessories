@@ -50,21 +50,22 @@ function use_chain_global(id, texture, item)
 		PlayClothesAnims(chain_anim_name, chain_anim_dict, 1500)
 		Wait(chain_anim_delay)
 		SetPedPropIndex(PlayerPedId(), 7, 0, 0, 0) -- To Remove 
-		lib.notify({
+		lib.notify({         --Comment if you have your own custom notification system and replace with this.
 			title = 'Un-wore',
 			description = 'You just un-wore '..itemlabel,
 			type = 'error'
 		}) 
+		--exports['okokNotify']:Alert('Title', 'Message', Time, 'type', playSound)  --Uncomment if you use okok notify, and cutomize to your preference
 	else
 		PlayClothesAnims(chain_anim_name, chain_anim_dict, 1500)
 		Wait(chain_anim_delay)
 		SetPedPropIndex(PlayerPedId(), 7, id, texture , 0)  -- To wore
-		lib.notify({
+		lib.notify({                                --Comment if you have your own custom notification system and replace with this.
 			title = 'wore',
 			description = 'You just wore '..itemlabel ,
 			type = 'success'
 		}) 
-		
+		--exports['okokNotify']:Alert('Title', 'Message', Time, 'type', playSound)  --Uncomment if you use okok notify, and cutomize to your preference
 	end
 end 
 
@@ -107,20 +108,22 @@ function use_watch_global(id, texture, item)
 		Wait(watch_anim_delay)
 		SetPedPropIndex(PlayerPedId(), 6, -1, -1, 2) -- To Remove  
 		
-		lib.notify({
+		lib.notify({                               --Comment if you have your own custom notification system and replace with this.
 			title = 'Un-wore',
 			description = 'You just un-wore '..itemlabel,
 			type = 'error'
 		}) 
+		---exports['okokNotify']:Alert('Title', 'Message', Time, 'type', playSound)  --Uncomment if you use okok notify, and cutomize to your preference
 	else
 		PlayClothesAnims(watch_anim_name, watch_anim_dict, 1500)
 		Wait(watch_anim_delay)
 		SetPedPropIndex(PlayerPedId(), 6, id, texture , 2)  -- To wore 
-		lib.notify({
+		lib.notify({            --Comment if you have your own custom notification system and replace with this.
 			title = 'wore',
 			description = 'You just wore '..itemlabel ,
 			type = 'success'
 		}) 
+		---exports['okokNotify']:Alert('Title', 'Message', Time, 'type', playSound)  --Uncomment if you use okok notify, and cutomize to your preference
 	end
 end 
 
