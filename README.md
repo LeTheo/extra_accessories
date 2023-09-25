@@ -3,4 +3,7 @@
 
 - Add items to inventory
 - Ensure in cfg.
+- Ensure after ox_lib
+  - ensure ox_lib
+  - ensure extra_accessories
 - Enjoy.
